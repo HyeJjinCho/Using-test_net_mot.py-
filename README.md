@@ -8,7 +8,7 @@ Analysis of 'test_net_mot' partial code on MOT (in progress)
   * from fast_rcnn.test_mot import test_net_mot: for test(default max_per_image=300)  
   * from datasets.mot import mot: mot path Structure  
 
-* ### 2. Arguments ###
+### 2. Arguments ###
   * –gpu*: GPU id to use  
   * –def*: prototxt file defining the network  
   * –net**: model to test  
@@ -21,7 +21,7 @@ Analysis of 'test_net_mot' partial code on MOT (in progress)
   * --num_dets: max number of detections per image(default=100)  
   (*: using always, **: using when test)  
 
-* ### Another function ### 
+### 3. Another function ### 
   * Change data directory path: config.py-194 
 
 ### 4. Code ###
